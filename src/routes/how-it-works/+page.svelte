@@ -7,7 +7,7 @@
 		],
 		[
 			'Threshold check',
-			'After orders close, the minimum is evaluated. If it is not reached, customers are notified and refunded through Square.'
+			'After orders close, the minimum is evaluated. Customers receive confirmation if it is reached. If it is not, customers are notified and refunded through Square during the initial release.'
 		],
 		[
 			'Harvest confirmed',
@@ -78,8 +78,8 @@
 			<article class="card">
 				<h3>Private details</h3>
 				<p>
-					The exact residential address and access instructions are reserved for eligible confirmed
-					orders.
+					The exact residential address and access instructions are sent after your harvest is
+					confirmed.
 				</p>
 			</article>
 			<article class="card">

@@ -13,7 +13,7 @@
 
 - [ ] Create and verify owned Square product/payment links; test success, cancel, receipts, refunds, and mobile handoff
 - [ ] Document manual threshold evaluation, reconciliation, notification, refund, cutoff, sold-out, delay, and cancellation procedures
-- [ ] Confirm exact-address disclosure occurs only after an eligible confirmed order
+- [ ] Confirm exact-address disclosure occurs only after the customer’s harvest is confirmed
 - [ ] Test customer-arranged courier handoff and missed-pickup policy
 - [ ] Connect real email signup and contact providers with consent, validation, spam controls, retention, and error handling
 

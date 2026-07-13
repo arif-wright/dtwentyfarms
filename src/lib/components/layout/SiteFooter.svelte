@@ -21,7 +21,7 @@
 		<div>
 			<strong>Pickup</strong>
 			<p>Cloud Trails area<br />Boerne, Texas</p>
-			<small>Exact instructions follow an eligible confirmed order.</small>
+			<small>Exact instructions are sent after your harvest is confirmed.</small>
 		</div>
 	</div>
 	<div class="container bottom">

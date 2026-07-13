@@ -4,7 +4,7 @@
 		<h3>Scheduled pickup</h3>
 		<p>
 			Pickup is available in the Cloud Trails area of Boerne. The exact address and pickup
-			instructions are provided after an eligible order is confirmed.
+			instructions are sent after your harvest is confirmed.
 		</p>
 	</article>
 	<article>

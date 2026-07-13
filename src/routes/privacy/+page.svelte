@@ -45,8 +45,8 @@
 		<h2>Pickup privacy</h2>
 		<p>
 			The public website identifies only the general Cloud Trails area of Boerne. The exact
-			residential address and access instructions will be shared only with authorized customers
-			whose eligible orders require that information.
+			residential address and access instructions will be shared with customers after their harvest
+			is confirmed and their order requires that information.
 		</p>
 		<h2>Email and analytics</h2>
 		<p>

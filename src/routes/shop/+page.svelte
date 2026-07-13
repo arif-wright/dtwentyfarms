@@ -59,9 +59,9 @@
 				<article>
 					<h3>Threshold policy</h3>
 					<p>
-						A minimum of {featuredHarvest.minimumReservations} paid reservations is required. If it is
-						not reached, customers are notified and refunded through Square. Evaluation and refunds are
-						manual in Phase 1.
+						A minimum of {featuredHarvest.minimumReservations} paid reservations is required. After orders
+						close, customers receive confirmation if the minimum is reached. If it is not, customers are
+						notified and refunded through Square during the initial release.
 					</p>
 				</article>
 				<article>

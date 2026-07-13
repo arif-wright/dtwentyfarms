@@ -7,13 +7,17 @@
 	import { formatDate } from '$lib/utils/format';
 	const steps = [
 		['01', 'Reserve', 'Choose a box and pay for a future harvest.'],
-		['02', 'Harvest confirmed', 'The release proceeds after its minimum is reached.'],
+		[
+			'02',
+			'Harvest confirmed',
+			'After orders close, we confirm the harvest if the minimum is reached. Otherwise, we notify you and refund your payment through Square.'
+		],
 		['03', 'We grow', 'Crops are planted and tended for your pickup date.'],
 		['04', 'Pick up', 'Collect during one simple scheduled window.']
 	];
 	const uses = ['Eggs', 'Breakfast tacos', 'Burgers', 'Sandwiches', 'Salads', 'Rice bowls'];
 	const reasons = [
-		['Small batch', 'One rack initially, with production kept deliberately limited.'],
+		['Small batch', 'Production stays deliberately limited so each release remains focused.'],
 		['Boerne grown', 'Grown locally in a dedicated indoor growing studio.'],
 		['Scheduled fresh', 'Harvested and packed for a specific fulfillment date.'],
 		['Less guesswork', 'Grow-to-order helps reduce speculative, unsold inventory.']
@@ -194,7 +198,7 @@
 			<h3>Scheduled pickup</h3>
 			<p>
 				Pickup is available in the Cloud Trails area of Boerne. The exact address and instructions
-				are provided after an eligible order is confirmed.
+				are sent after your harvest is confirmed.
 			</p>
 		</div>
 		<div class="pickup-card">

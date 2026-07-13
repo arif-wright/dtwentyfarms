@@ -22,6 +22,8 @@ test('shop shows active context and disabled checkout', async ({ page }) => {
 test('harvest detail works and sold/unavailable state prevents checkout', async ({ page }) => {
 	await page.goto('/harvests/august-table-harvest');
 	await expect(page.getByRole('heading', { name: 'August Table Harvest' })).toBeVisible();
+	await expect(page.getByText('August 21, 2026').first()).toBeVisible();
+	await expect(page.getByText('August 20, 2026')).toHaveCount(0);
 	await expect(page.getByRole('button', { name: 'Checkout coming soon' }).first()).toBeDisabled();
 });
 test('FAQ accordion works', async ({ page }) => {

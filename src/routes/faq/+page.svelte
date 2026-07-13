@@ -15,7 +15,7 @@
 		],
 		[
 			'What happens if the threshold is not reached?',
-			'Customers are notified and refunded through Square. Threshold evaluation, notifications, and refunds are handled manually during the initial release.'
+			'After orders close, customers receive confirmation if the minimum is reached. If it is not, customers are notified and refunded through Square during the initial release.'
 		],
 		[
 			'What happens when the maximum is reached?',
@@ -27,7 +27,7 @@
 		],
 		[
 			'Where is pickup?',
-			'Pickup is in the Cloud Trails area of Boerne. Exact directions are provided only for an eligible confirmed order.'
+			'Pickup is in the Cloud Trails area of Boerne. Exact directions are sent after your harvest is confirmed.'
 		],
 		[
 			'Why is the exact address private?',

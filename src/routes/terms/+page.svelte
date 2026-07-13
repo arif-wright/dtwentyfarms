@@ -44,9 +44,9 @@
 		<h2>Pickup and couriers</h2>
 		<p>
 			Customers must collect orders during the published window in the Cloud Trails area of Boerne.
-			Exact instructions are private and provided only to eligible confirmed orders. Customers may
-			arrange courier pickup at their own cost and risk. D-Twenty does not provide delivery and is
-			not responsible for a third-party courier’s delay, handling, or fees.
+			Exact instructions are private and sent after your harvest is confirmed. Customers may arrange
+			courier pickup at their own cost and risk. D-Twenty does not provide delivery and is not
+			responsible for a third-party courier’s delay, handling, or fees.
 		</p>
 		<h2>Perishable goods and quality</h2>
 		<p>

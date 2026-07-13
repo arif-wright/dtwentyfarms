@@ -38,12 +38,11 @@
 		<div class="columns">
 			<p>
 				D-Twenty’s grow-to-order model begins with a limited release. A minimum threshold confirms
-				that planting makes operational sense; a maximum protects the capacity of the initial
-				growing rack.
+				that planting makes operational sense; a maximum keeps production intentionally limited.
 			</p>
 			<p>
 				That approach reduces speculative inventory and gives every release a specific purpose,
-				harvest date, and fulfillment window. A second rack can come online when proven demand
+				harvest date, and fulfillment window. Production can grow carefully when proven demand
 				supports it.
 			</p>
 			<p>

@@ -3,4 +3,5 @@ build
 coverage
 playwright-report
 test-results
+.vercel
 pnpm-lock.yaml

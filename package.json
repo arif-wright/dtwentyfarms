@@ -13,7 +13,8 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"test": "vitest run",
-		"test:e2e": "playwright test"
+		"test:e2e": "playwright test",
+		"capture:review": "node scripts/capture-review.mjs"
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",

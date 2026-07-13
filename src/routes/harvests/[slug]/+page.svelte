@@ -8,8 +8,11 @@
 	const harvest = $derived(data.harvest);
 	const timeline = [
 		['Reserve', 'Choose and pay through Square when checkout opens.'],
-		['Evaluate', 'The minimum is checked after orders close.'],
-		['Plant', 'Crops are planted once the harvest is confirmed.'],
+		[
+			'Evaluate',
+			'After orders close, we confirm the harvest if the minimum is reached. If not, we notify customers and issue refunds through Square.'
+		],
+		['Plant', 'Crops are planted after customers receive harvest confirmation.'],
 		['Grow', 'The shared crop batches are tended indoors.'],
 		['Harvest', 'Boxes are cut and packed for the listed date.'],
 		['Pick up', 'Collect during the scheduled window.']
@@ -43,9 +46,9 @@
 		<div>
 			<HarvestDates {harvest} /><ReservationMeter {harvest} />
 			<p>
-				Orders close at the listed cutoff or when maximum capacity is reached. If the minimum is not
-				reached, customers are notified and refunded through Square. This process is manual in Phase
-				1.
+				Orders close at the listed cutoff or when maximum capacity is reached. After orders close,
+				customers receive confirmation if the minimum is reached. If it is not, customers are
+				notified and refunded through Square during the initial release.
 			</p>
 		</div>
 	</div>
