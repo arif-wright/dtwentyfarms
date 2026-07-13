@@ -13,7 +13,7 @@ Production foundation for a one-person, grow-to-order microgreens business in Bo
 - Vitest: domain unit tests
 - Playwright: critical public-flow browser tests
 - ESLint + Prettier: static quality and formatting
-- `@sveltejs/adapter-node`: dynamic server deployment; this is not a permanent static export
+- `@sveltejs/adapter-vercel`: dynamic Vercel deployment; this is not a permanent static export
 - pnpm: package manager
 
 The public site, future accounts, operator tools, APIs, checkout, and webhooks remain in one SvelteKit application. UI imports typed local data; business rules live in domain modules; private integrations live under `src/lib/server` and cannot enter client bundles.
@@ -73,7 +73,7 @@ Customer work should follow commerce integrity: accounts and order history, auth
 
 ## Deployment
 
-Build with `pnpm build`; run the Node adapter output with `node build`. Configure the canonical production URL, TLS, server-only secrets, persistent logging, backups, monitoring, and platform-specific proxy headers. Public routes are prerendered today, while the adapter preserves dynamic server capability for future APIs/accounts/webhooks.
+Build with `pnpm build`; the Vercel adapter writes a Build Output API bundle to `.vercel/output`. Keep the Vercel Framework Preset set to SvelteKit and leave the Output Directory override empty—do not set it to `dist`. Configure the canonical production URL, TLS, server-only secrets, persistent logging, backups, and monitoring. Public routes are prerendered today, while the adapter preserves dynamic server capability for future APIs/accounts/webhooks.
 
 ## Security
 
